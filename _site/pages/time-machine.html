@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-Column Template</title>
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, ul, li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .menu {
+            background-color: #333;
+            color: #fff;
+            width: 10%;
+            padding: 20px;
+        }
+
+        .menu h2 {
+            font-size: 30px;
+            margin-bottom: 16px;
+        }
+
+        .menu h3 {
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            margin-bottom: 5px;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .content {
+            background-color: #fff;
+            width: 90%;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .box {
+            width: 200px;
+            height: 100px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #response-box {
+            width: 100%;
+            height: 300px; /* Set the desired height for the response box */
+            border: 1px solid #ccc;
+        }        
+    </style>
+    <script>
+        // Place your JavaScript code here
+        document.addEventListener("DOMContentLoaded", function() {
+            // Access the iframe using its id
+            var iframe = document.getElementById("my-iframe");
+
+            // Change the source URL of the iframe
+            iframe.src = "https://ronny-lk.github.io/wells-variorum/novels/time-machine/chapter-1";
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <h2>H.G. Wells Variorum</h2>
+            <ul>
+                <h3>Novels</h3>
+                <li><a href="/pages/time-machine.html">The Time Machine</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+                <br></br>
+                <hr></hr>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>The Time Machine (1895)</h1>
+            <p>This is the main content of the page. It is placed in the right column, which takes up 80% of the page width.</p>
+            <div class="box">
+                <h2>Chapters</h2>
+                <p>Chapter 1</p>
+                <script>
+                    // Place your JavaScript code here
+                    // Access the iframe using its id
+                    var iframe = document.getElementById("my-iframe");
+            
+                    // Change the source URL of the iframe
+                    iframe.src = "/novels/time-machine/chapter-1.html";
+                </script>
+            </div>
+            <h1>Response Box</h1>
+             <!-- Use an iframe to display the contents of another HTML file -->
+             <iframe id="my-iframe" src="/novels/time-machine/chapter-1.html"></iframe>
+            </div>
+        </div>
+</body>
+</html>

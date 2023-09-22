@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retro Wikipedia</title>
+    <title>Two-Column Template</title>
     <style>
         /* Reset some default styles */
         body, h1, h2, p, ul, li {
@@ -12,97 +12,75 @@
         }
 
         body {
-            background-color: #f3f3f3;
-            font-family: 'Courier New', monospace;
-            line-height: 1.6;
-            margin: 20px;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
         }
 
-        header {
+        .container {
+            display: flex;
+        }
+
+        .menu {
             background-color: #333;
             color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
-
-        header h1 {
-            font-size: 36px;
-            text-transform: uppercase;
-            letter-spacing: 3px;
-        }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            width: 250px;
-            float: left;
+            width: 10%;
             padding: 20px;
-            border-right: 1px solid #666;
         }
 
-        nav h2 {
+        .menu h2 {
+            font-size: 30px;
+            margin-bottom: 16px;
+        }
+
+        .menu ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .menu li {
+            margin-bottom: 5px;
+        }
+
+        .menu a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .content {
+            background-color: #fff;
+            width: 90%;
+            padding: 20px;
+        }
+
+        h1 {
             font-size: 24px;
             margin-bottom: 10px;
         }
 
-        nav ul {
-            list-style: none;
-        }
-
-        nav ul li {
-            margin-bottom: 5px;
-        }
-
-        main {
-            margin-left: 280px;
-            padding: 20px;
-        }
-
-        h2 {
-            font-size: 28px;
-            text-decoration: underline;
-        }
-
         p {
-            font-size: 18px;
+            font-size: 16px;
+            line-height: 1.5;
             margin-bottom: 20px;
-        }
-
-        ul {
-            font-size: 18px;
-            margin-left: 20px;
-        }
-
-        footer {
-            clear: both;
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Retro Wikipedia</h1>
-    </header>
-    <nav>
-        <h2>Categories</h2>
-        <ul>
-            <li><a href="#">Category 1</a></li>
-            <li><a href="#">Category 2</a></li>
-            <li><a href="#">Category 3</a></li>
-            <li><a href="#">Category 4</a></li>
-        </ul>
-    </nav>
-    <main>
-        <h2>Article Title</h2>
-        <p>This is a sample article. You can replace this text with your own content.</p>
-        <h2>Another Article Title</h2>
-        <p>Here's another sample article. Feel free to customize it as you like.</p>
-    </main>
-    <footer>
-        &copy; 2023 Retro Wikipedia
-    </footer>
+    <div class="container">
+        <div class="menu">
+            <h2>H.G. Wells Variorum</h2>
+            <ul>
+                <li><a href="/pages/time-machine.html">The Time Machine</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+                <li><a href="#">Item 4</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Main Content Title</h1>
+            <p>This is the main content of the page. It is placed in the right column, which takes up 80% of the page width.</p>
+        </div>
+    </div>
 </body>
 </html>
