@@ -4,27 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Page</title>
-    <style> body {
+    <style> 
+    .no-line-break {
+        white-space: nowrap!important;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        white-space: nowrap;
+    }
+    
+    body {
         font-family: Arial, sans-serif;
         margin: 1em;
         margin-right: 2em;
         padding: 0;
+        white-space: nowrap;
     }
 
     p {
         size: 16px;
-        text-indent: 1em;
         margin-top: 0.25em;
-        margin-bottom: 0.25em
+        margin-bottom: 0.25em;
+        white-space: nowrap;
     }
 
-    mark {
-        background-color: grey;
+    p.mono {
+        font-family: "Lucida Console", Courier, monospace;
+        size: 14px;
+        white-space: nowrap;
+        padding: 0;
     }
+
+    span {
+            background-color: #6287f8;
+            font-family: "Lucida Console", Courier, monospace;
+            color: #1d1d1e;
+            border-radius: 10px;
+            white-space: nowrap;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
     </style>
 </head>
 <body>
-    <h1>"Introduction"</h1>
+    <div class="no-line-break">
+        <b style="font-size: 20px;">"Introduction"</b>
+        <span>Structure</span>
+    </div>
+    <br></br>
     <p>This is a basic HTML page with only text. You can add more content here.</p>
 </body>
 </html>

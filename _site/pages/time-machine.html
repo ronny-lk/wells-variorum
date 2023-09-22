@@ -13,7 +13,8 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            background-color: #020202;
+            color: #020202;
             margin: 0;
             padding: 0;
         }
@@ -23,38 +24,52 @@
         }
 
         .menu {
-            background-color: #333;
+            background-color: #fff;
+            border: 3px solid #020202;
             color: #fff;
-            width: 10%;
+            width: 11%;
             padding: 20px;
         }
 
         .menu h2 {
+            color: #020202;
             font-size: 30px;
             margin-bottom: 16px;
         }
 
         .menu h3 {
+            color: #020202;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .menu p {
+            color: #020202;
             font-size: 24px;
             margin-bottom: 16px;
         }
 
         .menu ul {
+            color: #020202;
             list-style: none;
             padding: 0;
         }
 
         .menu li {
+            color: #020202;
             margin-bottom: 5px;
+            font-size: 18px;
         }
 
         .menu a {
+            color: #020202;
             color: #fff;
             text-decoration: none;
         }
 
         .content {
             background-color: #fff;
+            color: #020202;
             width: 90%;
             padding: 20px;
         }
@@ -79,10 +94,6 @@
             line-height: 1.5;
             margin-bottom: 20px;
             text-indent: 1em;
-        }
-
-        mark {
-            background-color: red;
         }
 
         .box {
@@ -116,25 +127,70 @@
             height: 700px; /* Set the desired height for the response box */
             background-color: #f0f0f0;
         } 
+
+        span.title {
+            background-color: #49cc76;
+            color: #1d1d1e;
+            padding: 0 10px 0 10px;
+        }
+
+        span.structural {
+            background-color: #6287f8;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.change {
+            background-color: #ff6e21;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.note {
+            background-color: #73fffe;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
         <div class="menu">
             <h2>[<i>DigiWV</i>]</h2>
-            <h3><a href="/">The Digital H.G. Wells Variorum</a></h3>
+            <h3 style="font-weight:lighter; color:#020202;"><a href="/"><i>The Digital <br> Wells Variorum</i></a></h3>
             <hr></hr>
             <ul>
                 <h3>Novels</h3>
                 <li><a href="/pages/time-machine.html">The Time Machine</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
+                <li><a href="#">Island of Doctor Moreau</a></li>
+                <li><a href="#">War of the Worlds</a></li>
                 <br></br>
                 <hr></hr>
+            </ul>
+            <ul>
+                <h3> </h3>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li>
-            </ul>
+            </ul> 
+            <br></br>
+            <div class="box", style="width: 78%; height: 125px; text-align: left; padding: 15px; border: 0px solid #ccc; position:relative; top:-5px;">
+                <h3 style="color: #1d1d1e; position:relative; top:-20px;">Legend</h3>
+                <ul style="position:relative; top:-20px;">
+                    <li><span class="structural", style="font-family: Lucida Console, Courier, monospace;font-size: 16px;">Structure</span></li>
+                    <li><span class="change", style="font-family: Lucida Console, Courier, monospace; font-size: 16px;">Revision</span></li>
+                    <li><span class="note", style="font-family: Lucida Console, Courier, monospace;font-size: 16px;">Note</span></li>
+                </ul>
+            </div>
         </div>
         <div class="content">
             <h1><i>The Time Machine</i> (1895)</h1>

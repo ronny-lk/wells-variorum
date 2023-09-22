@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple HTML Page</title>
     <style>
-         body {
+        body {
             font-family: Arial, sans-serif;
             margin: 1em;
             margin-right: 2em;
@@ -13,20 +13,42 @@
         }
 
         p {
-            size: 16px;
+            size: 20px;
             text-indent: 1em;
             margin-top: 0.25em;
             margin-bottom: 0.25em
         }
 
+        a {
+            color: black;
+        }
+
         mark {
-            background-color: grey;
+            background-color: yellow;
+        }
+
+        span.structural {
+            background-color: #6287f8;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.change {
+            background-color: #ff6e21;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
         }
     </style>
 </head>
 <body>
     <div class="chapter">
-        <h2><mark><a href="/novel-notes/time-machine/chapter-1/introduction.html", target="highlight_frame">I. Introduction</a></mark></h2>
+        <h2><span class="structural"><a href="/novel-notes/time-machine/chapter-1/introduction.html", target="highlight_frame", style="text-decoration:none">I. Introduction</a></span></h2>
         <p>
         The Time Traveller (for so it will be convenient to speak of him) was
         expounding a recondite matter to us. His pale grey eyes shone and twinkled, and
@@ -41,8 +63,8 @@
         and his fecundity.
         </p>
         <p>
-        “You must follow me carefully. I shall have to controvert one or
-        two ideas that are almost universally accepted. The geometry, for instance,
+        “You must follow me carefully.<span class="change"> I shall have to controvert one or
+        two ideas that are almost universally accepted.</span> The geometry, for instance,
         they taught you at school is founded on a misconception.”
         </p>
         <p>
