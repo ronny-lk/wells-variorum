@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Two-Column Template</title>
+    <title>The Digital H.G. Wells Variorum</title>
     <style>
         /* Reset some default styles */
         body, h1, h2, p, ul, li {
@@ -78,44 +78,58 @@
             font-size: 16px;
             line-height: 1.5;
             margin-bottom: 20px;
+            text-indent: 1em;
+        }
+
+        mark {
+            background-color: red;
         }
 
         .box {
-            width: 200px;
-            height: 100px;
+            width: 98%;
+            height: 50px;
             background-color: #f0f0f0;
             border: 1px solid #ccc;
             padding: 20px;
             text-align: center;
         }
 
-        #response-box {
+        iframe {
             width: 100%;
-            height: 300px; /* Set the desired height for the response box */
-            border: 1px solid #ccc;
-        }        
-    </style>
-    <script>
-        // Place your JavaScript code here
-        document.addEventListener("DOMContentLoaded", function() {
-            // Access the iframe using its id
-            var iframe = document.getElementById("my-iframe");
+            height: 100%;
+        }
 
-            // Change the source URL of the iframe
-            iframe.src = "https://ronny-lk.github.io/wells-variorum/novels/time-machine/chapter-1";
-        });
-    </script>
+        #wrapper {
+            width: 100%;
+            height: 700;
+            border: 1px solid black;
+            display: flex;
+        }    
+
+        #text_frame {
+            width: 60%;
+            height: 700px; /* Set the desired height for the response box */
+        }  
+        
+        #highlight_frame {
+            width: 40%;
+            height: 700px; /* Set the desired height for the response box */
+            background-color: #f0f0f0;
+        } 
+    </style>
 </head>
 <body>
     <div class="container">
         <div class="menu">
-            <h2>H.G. Wells Variorum</h2>
+            <h2>[<i>DigiWV</i>]</h2>
+            <h3><a href="/">The Digital H.G. Wells Variorum</a></h3>
+            <hr></hr>
             <ul>
                 <h3>Novels</h3>
                 <li><a href="/pages/time-machine.html">The Time Machine</a></li>
-                <li><a href="#">Item 2</a></li>
-                <li><a href="#">Item 3</a></li>
-                <li><a href="#">Item 4</a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
                 <br></br>
                 <hr></hr>
                 <li><a href="#">About</a></li>
@@ -123,24 +137,25 @@
             </ul>
         </div>
         <div class="content">
-            <h1>The Time Machine (1895)</h1>
-            <p>This is the main content of the page. It is placed in the right column, which takes up 80% of the page width.</p>
+            <h1><i>The Time Machine</i> (1895)</h1>
+            <p><i>The Time Machine</i> is a post-apocalyptic science fiction novella, published in 1895. The work is generally credited with the popularization of the concept of time travel by using a vehicle or device to travel purposely and selectively forward or backward through time. The term "time machine", coined by Wells, is now almost universally used to refer to such a vehicle or device.</p>
+            <p>Utilizing a frame story set in then-present Victorian England, Wells' text focuses on a recount of the otherwise anonymous Time Traveller's journey into the far future. A work of future history and speculative evolution, Time Machine is interpreted in modern times as a commentary on the increasing inequality and class divisions of Wells' era, which he projects as giving rise to two separate human species: the fair, childlike Eloi, and the savage, simian Morlocks, distant descendants of the contemporary upper and lower classes respectively.It is believed that Wells' depiction of the Eloi as a race living in plenitude and abandon was inspired by the utopic romance novel <i>News from Nowhere</i> (1890), though Wells' universe in the novel is notably more savage and brutal.
+            <p> In his 1931 preface to the book, Wells wrote that The Time Machine seemed "a very undergraduate performance to its now mature writer, as he looks over it once more", though he states that "the writer feels no remorse for this youthful effort". However, critics have praised the novella's handling of its thematic concerns, with Marina Warner writing that the book was the most significant contribution to understanding fragments of desire[clarify] before Sigmund Freud's The Interpretation of Dreams, with the novel "[conveying] how close he felt to the melancholy seeker after a door that he once opened on to a luminous vision and could never find again" </p>
+            <p> The Time Machine has been adapted into two feature films of the same name, as well as two television versions and many comic book adaptations. It has also indirectly inspired many more works of fiction in many media productions.</p>
             <div class="box">
                 <h2>Chapters</h2>
-                <p>Chapter 1</p>
-                <script>
-                    // Place your JavaScript code here
-                    // Access the iframe using its id
-                    var iframe = document.getElementById("my-iframe");
-            
-                    // Change the source URL of the iframe
-                    iframe.src = "/novels/time-machine/chapter-1.html";
-                </script>
+                <p><a href="/novels/time-machine/chapter-1.html" target="text_frame">Chapter 1</a> · <a href="/novels/time-machine/chapter-2" target="text_frame">Chapter 2</a> · <a href="/novels/time-machine/chapter-3" target="text_frame">Chapter 3</a> · <a href="/novels/time-machine/chapter-4" target="text_frame">Chapter 4</a> · <a href="/novels/time-machine/chapter-5" target="text_frame">Chapter 5</a> · <a href="/novels/time-machine/chapter-6" target="text_frame">Chapter 6</a> · <a href="/novels/time-machine/chapter-7" target="text_frame">Chapter 7</a> · <a href="/novels/time-machine/chapter-8" target="text_frame">Chapter 8</a> · <a href="/novels/time-machine/chapter-9" target="text_frame">Chapter 9</a> · <a href="/novels/time-machine/chapter-10" target="text_frame">Chapter 10</a> · <a href="/novels/time-machine/chapter-11" target="text_frame">Chapter 11</a> · <a href="/novels/time-machine/chapter-12" target="text_frame">Chapter 12</a> · <a href="/novels/time-machine/chapter-13" target="text_frame">Chapter 13</a> · <a href="/novels/time-machine/chapter-14" target="text_frame">Chapter 14</a> · <a href="/novels/time-machine/chapter-15" target="text_frame">Chapter 15</a> · <a href="/novels/time-machine/chapter-16" target="text_frame">Chapter 16</a> · <a href="/novels/time-machine/epilogue" target="text_frame">Epilogue</a>
             </div>
-            <h1>Response Box</h1>
-             <!-- Use an iframe to display the contents of another HTML file -->
-             <iframe id="my-iframe" src="/novels/time-machine/chapter-1.html"></iframe>
+            <br></br>
+            <div id="wrapper">
+                <div id="text_frame">
+                    <iframe name="text_frame" id="frame" src=""></iframe>
+                </div>
+                <div id="highlight_frame">
+                    <iframe name="highlight_frame" id="frame" src=""></iframe>
+                </div>
             </div>
         </div>
+    </div>
 </body>
 </html>
