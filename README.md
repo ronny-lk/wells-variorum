@@ -1,1 +1,1 @@
-# wells-variorum
+# The Digital Wells Variorum
