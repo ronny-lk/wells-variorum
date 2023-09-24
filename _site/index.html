@@ -12,8 +12,10 @@
         }
 
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
+            font-family: didot;
+            font-size: 18px;
+            background-color: #020202;
+            color: #020202;
             margin: 0;
             padding: 0;
         }
@@ -23,87 +25,191 @@
         }
 
         .menu {
-            background-color: #333;
-            color: #fff;
-            width: 10%;
+            background-color: #fff;
+            border-right: 2px solid #020202;
+            color: #1d1d1e;
+            width: 12%;
             padding: 20px;
         }
 
         .menu h2 {
+            color: #020202;
             font-size: 30px;
             margin-bottom: 16px;
         }
 
         .menu h3 {
+            color: #020202;
+            font-size: 24px;
+            margin-bottom: 16px;
+        }
+        
+        .menu p {
+            color: #020202;
             font-size: 24px;
             margin-bottom: 16px;
         }
 
         .menu ul {
+            color: #020202;
             list-style: none;
             padding: 0;
         }
 
         .menu li {
+            color: #020202;
             margin-bottom: 5px;
+            font-size: 18px;
         }
 
         .menu a {
-            color: #fff;
+            color: #020202;
             text-decoration: none;
         }
 
         .content {
             background-color: #fff;
+            color: #020202;
             width: 90%;
-            padding: 20px;
-        }
-
-        .quote {background-color: #fff;
-            width: 40%;
             padding: 20px;
         }
 
         h1 {
             font-size: 24px;
+            color: #1d1d1e;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            color: #1d1d1e;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 18px;
+            color: #1d1d1e;
             margin-bottom: 10px;
         }
 
         p {
-            font-size: 16px;
+            font-size: 18px;
+            color: #1d1d1e;
             line-height: 1.5;
             margin-bottom: 20px;
+            text-indent: 1em;
         }
 
-        q {
-            font-size: 20px;
-            line-height: 1.5;
-            margin-bottom: 20px;
+        .box {
+            width: 98%;
+            height: 50px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+        }
+
+        #wrapper {
+            width: 100%;
+            height: 700;
+            display: flex;
+            border: #DCDCDC
+        }    
+
+        #text_frame {
+            width: 60%;
+            height: 700px; /* Set the desired height for the response box */
+            border: #DCDCDC
+        }  
+        
+        #highlight_frame {
+            width: 39%;
+            height: 700px; /* Set the desired height for the response box */
+            background-color: #F5F5F5;
+            border: #DCDCDC;
+        } 
+
+        span.title {
+            background-color: #49cc76;
+            color: #1d1d1e;
+            padding: 0 10px 0 10px;
+        }
+
+        span.structural {
+            background-color: #E6E6FA;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.change {
+            background-color: #FFDEAD;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.note {
+            background-color: #AFEEEE;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="menu">
+            <div class="box" style="background-color: #F6FFFA; width: 82%; height: 125px; border: 1px solid #CFF3E0; padding: 15px; text-align: left;">
             <h2>[<i>DigiWV</i>]</h2>
-            <h3><a href="/">The Digital H.G. Wells Variorum</a></h3>
-            <hr></hr>
-            <ul>
-                <h3>Novels</h3>
-                <li><a href="/pages/time-machine.html">The Time Machine</a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <li><a href="#"></a></li>
-                <br></br>
-                <hr></hr>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+            <h3 style="font-weight:lighter; color:#020202;"><a href="/"><i>The Digital <br> Wells Variorum</i></a></h3>
         </div>
-        <div class="quote">
-            <q>The past is the beginning of the beginning and all that is and has been is but the twilight of the dawn. The only true measure of success is the ratio between what we might have done and what we might have been on the one hand, and the thing we have made and the things we have made of ourselves on the other.</q>
-            <p>—<i>Herbert George Wells</i></p>
+            <hr></hr>
+            <div class="box" style="background-color: #F6FBFF; width: 82%; height: 150px; border: 1px solid #CFE0F3; padding: 15px; text-align: left; top:-30px">
+                <h3 style="position:relative; top:-20px">Novels</h3>
+                <ul style="position:relative; top:-20px">
+                    <li><a href="/pages/time-machine.html">The Time Machine</a></li>
+                    <li><a href="#">Island of Doctor Moreau</a></li>
+                    <li><a href="#">War of the Worlds</a></li>
+                    <br></br>
+                </ul>
+            </div>
+            <hr></hr>
+            <div class="box" style="background-color: #FAF6FF; width: 82%; height: 50px; border: 1px solid #DDCEF2; padding: 15px; text-align: left; top:-30px">
+                <ul>
+                    <li><a href="/pages/about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul> 
+            </div>
+            <hr></hr>
+            <div class="box", style="width: 82%; height: 125px; text-align: left; background-color: #FFFFFF; padding: 15px; border: 1 solid #EEEEEE; position:relative; top:2px;">
+                <h3 style="color: #1d1d1e; position:relative; top:-20px;">Legend</h3>
+                <ul style="position:relative; top:-20px;">
+                    <li><span class="structural", style="font-family: Lucida Console, Courier, monospace;font-size: 16px;">Structure</span></li>
+                    <li><span class="change", style="font-family: Lucida Console, Courier, monospace; font-size: 16px;">Revision</span></li>
+                    <li><span class="note", style="font-family: Lucida Console, Courier, monospace;font-size: 16px;">Note</span></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content" style="height: 900px">
+            <div class="quote" style="width: 35%; font-size: 20px;">
+                <q>The past is the beginning of the beginning and all that is and has been is but the twilight of the dawn. The only true measure of success is the ratio between what we might have done and what we might have been on the one hand, and the thing we have made and the things we have made of ourselves on the other.</q>
+                <p style="font-size: 20px;">— <i>Herbert George Wells</i></p>
+            </div>
+            <img src="/assets/bio.jpg" alt="Mr. Macaroni">
         </div>
     </div>
+</div>
 </body>
 </html>

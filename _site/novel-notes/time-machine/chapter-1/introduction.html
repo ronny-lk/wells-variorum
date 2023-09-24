@@ -16,7 +16,7 @@
     }
     
     body {
-        font-family: Arial, sans-serif;
+        font-family: didot;
         margin: 1em;
         margin-right: 2em;
         padding: 0;
@@ -37,12 +37,28 @@
         padding: 0;
     }
 
-    span {
-            background-color: #6287f8;
-            font-family: "Lucida Console", Courier, monospace;
+    span.structural {
+            background-color: #E6E6FA;
             color: #1d1d1e;
             border-radius: 10px;
-            white-space: nowrap;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.change {
+            background-color: #FFDEAD;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.note {
+            background-color: #AFEEEE;
+            color: #1d1d1e;
+            border-radius: 10px;
             -webkit-box-decoration-break: clone;
             box-decoration-break: clone;
             padding: 0 5px 0 5px;
@@ -50,11 +66,10 @@
     </style>
 </head>
 <body>
-    <div class="no-line-break">
+    <div>
         <b style="font-size: 20px;">"Introduction"</b>
-        <span>Structure</span>
-    </div>
-    <br></br>
-    <p>This is a basic HTML page with only text. You can add more content here.</p>
+        <span class="structural" style="font-family: Lucida Console, Courier, monospace">Structure</span>
+        <hr></hr>
+        <p style="white-space: normal;">This is a basic HTML page with only text. You can add more content here.</p>
 </body>
 </html>
