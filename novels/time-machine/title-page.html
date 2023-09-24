@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        body {
+            font-family: didot;
+            margin: 1em;
+            margin-right: 2em;
+            padding: 0;
+        }
+
+        p {
+            size: 20px;
+            text-indent: 1em;
+            margin-top: 0.25em;
+            margin-bottom: 0.25em
+        }
+
+        a {
+            color: black;
+        }
+
+        mark {
+            background-color: yellow;
+        }
+
+        span.structural {
+            background-color: #E6E6FA;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.change {
+            background-color: #FFDEAD;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        span.note {
+            background-color: #AFEEEE;
+            color: #1d1d1e;
+            border-radius: 10px;
+            -webkit-box-decoration-break: clone;
+            box-decoration-break: clone;
+            padding: 0 5px 0 5px;
+        }
+
+        img {
+            width: 300px;
+            height: auto
+        }
+
+        /* Three image containers (use 25% for four, and 50% for two, etc) */
+        .row {
+            display: flex;
+        }
+        
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="row">
+        <div class="column">
+            <figure style="width: 80%;">
+                <img src="/assets/time_machine_uk.jpg" style="float: left; margin-right: 15px; size: 50%;">
+                <figcaption style="text-align: left; white-space: normal;">Title page to the original UK edition, William Heinemann.</figcaption>
+            </figure>
+        </div>
+            <div class="column">
+            <figure style="width: 80%;">
+                <img src="/assets/time_machine_us.jpeg" style="float: left; margin-right: 15px;">
+                <figcaption style="text-align: left; white-space: normal;">Title page to the original US edition, Henry Holt and Co.</figcaption>
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
