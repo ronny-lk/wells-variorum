@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/</loc>
-<lastmod>2023-10-18T10:36:57-04:00</lastmod>
+<lastmod>2023-10-18T16:16:45-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/novel-notes/time-machine/chapter-1/controvert.html</loc>
@@ -50,7 +50,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/novels/time-machine/chapter-2.html</loc>
-<lastmod>2023-09-22T21:37:09-04:00</lastmod>
+<lastmod>2023-10-18T16:24:01-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/novels/time-machine/chapter-3.html</loc>
@@ -86,7 +86,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/novels/time-machine/title-page.html</loc>
-<lastmod>2023-10-18T10:25:21-04:00</lastmod>
+<lastmod>2023-10-18T16:19:41-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pages/about.html</loc>
@@ -98,7 +98,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/pages/contact.html</loc>
-<lastmod>2023-10-13T21:22:19-04:00</lastmod>
+<lastmod>2023-10-18T12:49:47-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pages/dr-moreau.html</loc>
@@ -106,7 +106,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/pages/time-machine.html</loc>
-<lastmod>2023-10-18T10:06:02-04:00</lastmod>
+<lastmod>2023-10-18T12:50:53-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/pages/war-worlds.html</loc>

@@ -1,5 +1,9 @@
+#Site settings
+url: "https://ronnylk.github.io" # the base hostname & protocol for your site
+baseurl: "/wells-variorum"
+
+#Build settings
 markdown: html
-url: https://ronnylk.github.io # the base hostname & protocol for your site
-baseurl: /wells-variorum
-# Dimensions
-max_width: 800px
+exclude: 
+  - Gemfile
+  - Gemfile.lock
