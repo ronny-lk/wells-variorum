@@ -2,7 +2,7 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/wells-variorum/</loc>
-<lastmod>2023-10-21T15:59:38-04:00</lastmod>
+<lastmod>2023-10-26T16:30:54-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/novel-notes/time-machine/chapter-1/controvert.html</loc>
@@ -22,7 +22,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/novel-notes/time-machine/chapter-1/time.html</loc>
-<lastmod>2023-10-21T17:58:15-04:00</lastmod>
+<lastmod>2023-10-22T09:09:24-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/novel-notes/time-machine/title-page/title-page.html</loc>
@@ -30,7 +30,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/novels/time-machine/chapter-1.html</loc>
-<lastmod>2023-10-21T18:10:37-04:00</lastmod>
+<lastmod>2023-10-22T09:08:27-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/novels/time-machine/chapter-10.html</loc>
@@ -102,7 +102,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/pages/about.html</loc>
-<lastmod>2023-10-21T17:29:27-04:00</lastmod>
+<lastmod>2023-10-22T09:18:36-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/pages/bibliography.html</loc>
@@ -118,7 +118,7 @@
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/pages/time-machine.html</loc>
-<lastmod>2023-10-21T18:05:21-04:00</lastmod>
+<lastmod>2023-10-21T18:23:29-04:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/wells-variorum/pages/war-worlds.html</loc>
